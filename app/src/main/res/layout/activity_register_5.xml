@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login"
+    tools:context=".activity_register_5">
+
+    <ImageView
+        android:id="@+id/indx8"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView38"
+        app:layout_constraintEnd_toStartOf="@+id/indx9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@+id/textView29"
+        app:srcCompat="@drawable/unselected" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="52dp"
+        android:text="إنهاء"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/indx10"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/indx9"
+        app:layout_constraintEnd_toStartOf="@+id/indx11"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/indx9"
+        app:layout_constraintTop_toTopOf="@+id/indx9"
+        app:srcCompat="@drawable/unselected" />
+
+    <ImageView
+        android:id="@+id/indx9"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/indx8"
+        app:layout_constraintEnd_toStartOf="@+id/indx10"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/indx8"
+        app:layout_constraintTop_toTopOf="@+id/indx8"
+        app:srcCompat="@drawable/selected" />
+
+    <ImageView
+        android:id="@+id/indx11"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/indx10"
+        app:layout_constraintEnd_toStartOf="@+id/textView37"
+        app:layout_constraintStart_toEndOf="@+id/indx10"
+        app:layout_constraintTop_toTopOf="@+id/indx10"
+        app:srcCompat="@drawable/unselected" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="52dp"
+        android:text="التالي"
+        android:textColor="#9AFFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="134dp"
+        android:layout_height="5dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginEnd="74dp"
+        android:background="@drawable/rectangle4"
+        android:gravity="right|center_vertical"
+        android:layoutDirection="rtl"
+        android:text="ألم الانفصال"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/radioButton3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desc22" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="74dp"
+        android:background="@drawable/rectangle4"
+        android:gravity="right|center_vertical"
+        android:layoutDirection="rtl"
+        android:text="بناء علاقة صحية"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton4" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="85dp"
+        android:background="@drawable/rectangle4"
+        android:gravity="right|center_vertical"
+        android:layoutDirection="rtl"
+        android:text="التخلص من علاقة سامة"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView29"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
+
+    <TextView
+        android:id="@+id/desc22"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center|center_horizontal"
+        android:text="ما هي مشاكلك في العلاقات العاطفية؟"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/radioButton4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/desc21"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="52dp"
+        android:gravity="center|center_horizontal"
+        android:text="قم بالإجابة عن الأسئلة التالية لتساعدنا على تحديد الخدمة الأنسب لك."
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/title2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_logo_2"
+        android:layout_width="102dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/desc21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/head" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="127dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center|center_horizontal"
+        android:text="علاقات عاطفية"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/desc22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.419"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

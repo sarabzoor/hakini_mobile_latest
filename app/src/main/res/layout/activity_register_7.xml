@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login"
+    tools:context=".activity_register_7">
+
+        <ImageView
+            android:id="@+id/indx6"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/indx4"
+            app:layout_constraintEnd_toStartOf="@+id/indx7"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/indx4"
+            app:layout_constraintTop_toTopOf="@+id/indx4"
+            app:srcCompat="@drawable/unselected" />
+
+        <ImageView
+            android:id="@+id/indx7"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/indx6"
+            app:layout_constraintEnd_toStartOf="@+id/textView36"
+            app:layout_constraintStart_toEndOf="@+id/indx6"
+            app:layout_constraintTop_toTopOf="@+id/indx6"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/selected" />
+
+        <ImageView
+            android:id="@+id/indx4"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/indx5"
+            app:layout_constraintEnd_toStartOf="@+id/indx6"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/indx5"
+            app:layout_constraintTop_toTopOf="@+id/indx5"
+            app:srcCompat="@drawable/unselected" />
+
+        <ImageView
+            android:id="@+id/indx5"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintEnd_toStartOf="@+id/indx4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toEndOf="@+id/textView30"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup1"
+            app:layout_constraintVertical_bias="0.745"
+            app:srcCompat="@drawable/unselected" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="52dp"
+            android:text="التالي"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/title5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:gravity="center|center_horizontal"
+            android:text="حل مستعجل؟"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/desc6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/desc6"
+            android:layout_width="188dp"
+            android:layout_height="24dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center|center_horizontal"
+            android:text="هل تبحث عن حل مستعجل؟"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toTopOf="@+id/radioGroup1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/desc5"
+            android:layout_width="288dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="52dp"
+            android:gravity="center|center_horizontal"
+            android:text="قم بالإجابة عن الأسئلة التالية لتساعدنا على تحديد الخدمة الأنسب لك."
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toTopOf="@+id/title5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/img_logo_"
+            android:layout_width="102dp"
+            android:layout_height="152dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/desc21"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.472"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/head" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="138dp"
+            android:layout_marginEnd="137dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="397dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="12dp"
+                    android:background="@drawable/rectangle4"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="نعم"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="12dp"
+                    android:background="@drawable/rectangle4"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="لا"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="134dp"
+            android:layout_height="5dp"
+            android:layout_marginStart="121dp"
+            android:layout_marginLeft="121dp"
+            android:layout_marginEnd="120dp"
+            android:layout_marginRight="120dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginBottom="52dp"
+            android:text="السابق"
+            android:textColor="#9AFFFFFF"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

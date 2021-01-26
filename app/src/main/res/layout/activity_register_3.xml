@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_register_3"
+    android:background="@drawable/bg_login">
+
+    <TextView
+        android:id="@+id/tv_entrymessage2_tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:layoutDirection="rtl"
+        android:text="الآن، اختر الاشتراك الذي يناسبك"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_lunchscreen5" />
+
+    <TextView
+        android:id="@+id/tv_lunchscreen5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:gravity="center"
+        android:layoutDirection="rtl"
+        android:lineHeight="24dp"
+        android:text="الاشتراك في حاكيني"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/radioButton7"
+        android:layout_width="0dp"
+        android:layout_height="172dp"
+        android:layout_gravity="right"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/rectangle"
+        android:gravity="right"
+        android:layoutDirection="rtl"
+        android:paddingTop="20dp"
+        android:paddingRight="30dp"
+        android:text="اشتراك عادي"
+        android:textColor="#143041"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_entrymessage2_tv6" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="14dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="72dp"
+        android:text="✓"
+        android:textColor="#143041"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/radioButton7"
+        app:layout_constraintEnd_toEndOf="@+id/radioButton7"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="@+id/radioButton7" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/radioButton7"
+        app:layout_constraintTop_toTopOf="@+id/radioButton7"
+        app:srcCompat="@drawable/oval_1" />
+
+    <TextView
+        android:id="@+id/radioButton6"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/rectangle"
+        android:gravity="right"
+        android:paddingTop="20dp"
+        android:paddingRight="30dp"
+        android:text="اشتراك ذهبي "
+        android:textColor="#143041"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/enrty7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton7"
+        />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="14dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="48dp"
+        android:text="✓"
+        android:textColor="#143041"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/radioButton6"
+        app:layout_constraintEnd_toEndOf="@+id/radioButton6" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="227dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginBottom="8dp"
+        android:layoutDirection="rtl"
+        android:text="تحدث مع اخصائي نفسي بشكل مباشر متى تريد."
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintTop_toTopOf="@+id/radioButton6"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="84dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
+        android:text="تماريين المساعدة الذاتية مع chatbot حاكيني الذكي."
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/radioButton6"
+        app:layout_constraintEnd_toStartOf="@+id/textView35" />
+
+    <Button
+        android:id="@+id/enrty7"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="54dp"
+        android:background="@drawable/start_now_btn_bg"
+        android:gravity="center"
+        android:text="متابعة"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="134dp"
+        android:layout_height="5dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/white"
+        android:layoutDirection="rtl"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/radioButton7"
+        app:layout_constraintStart_toStartOf="@+id/radioButton7"
+        app:layout_constraintTop_toTopOf="@+id/radioButton7"
+        app:srcCompat="@drawable/normal" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/radioButton6"
+        app:layout_constraintStart_toStartOf="@+id/radioButton6"
+        app:layout_constraintTop_toTopOf="@+id/radioButton6"
+        app:srcCompat="@drawable/gold" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="227dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="24dp"
+        android:layoutDirection="rtl"
+        android:text="تحدث مع تشاتبوت (chatbot) حاكيني الذكي للحصول على تمارين المساعدة الذاتية."
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/radioButton7"
+        tools:layout_editor_absoluteX="84dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="14dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="32dp"
+        android:text="✓"
+        android:textColor="#143041"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView35"
+        app:layout_constraintEnd_toEndOf="@+id/radioButton6"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toTopOf="@+id/radioButton6" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/radioButton6"
+        app:layout_constraintTop_toTopOf="@+id/radioButton6"
+        app:srcCompat="@drawable/oval_1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
