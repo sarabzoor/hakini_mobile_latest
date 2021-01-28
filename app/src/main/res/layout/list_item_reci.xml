@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_chat"
+    android:tooltipText=""
+    tools:context=".list_item_reci">
+
+    <ImageView
+        android:id="@+id/reci"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="3dp"
+        android:paddingTop="9dp"
+        android:paddingRight="2dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/obc"
+        android:src="@drawable/koalahead" />
+
+    <com.github.library.bubbleview.BubbleTextView
+        android:id="@+id/text_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_toStartOf="@+id/reci"
+        android:layout_toLeftOf="@+id/reci"
+        android:padding="10dp"
+        android:textColor="#FFF"
+        app:angle="8dp"
+        app:arrowCenter="true"
+        app:arrowHeight="14dp"
+        app:arrowLocation="right"
+        app:arrowPosition="14dp"
+        app:arrowWidth="8dp"
+        app:bubbleColor="#33FFFFFF" />
+
+</RelativeLayout>

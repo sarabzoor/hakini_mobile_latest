@@ -2,7 +2,6 @@ package com.yehyaayash99.hakini;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.Html;
@@ -41,4 +40,6 @@ public class StartNowActivity extends AppCompatActivity {
         String detailsInActicityText = "إذا كنت في حالة تقتضي المساعدة الفورية وهناك خطورة على حياتك، " + "<b>" + "يرجى الاتصال مباشرة برقم الطوارئ الخاص بمنطقتك!" + "<b>";
         detailsInActicityTV.setText(Html.fromHtml(detailsInActicityText));
     }
+
+
 }

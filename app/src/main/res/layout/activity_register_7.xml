@@ -70,7 +70,7 @@
 
         <TextView
             android:id="@+id/title5"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="24dp"
             android:gravity="center|center_horizontal"
@@ -84,7 +84,7 @@
 
         <TextView
             android:id="@+id/desc6"
-            android:layout_width="188dp"
+            android:layout_width="0dp"
             android:layout_height="24dp"
             android:layout_marginBottom="16dp"
             android:gravity="center|center_horizontal"
@@ -100,6 +100,7 @@
             android:id="@+id/desc5"
             android:layout_width="288dp"
             android:layout_height="48dp"
+            android:layout_marginTop="16dp"
             android:layout_marginBottom="52dp"
             android:gravity="center|center_horizontal"
             android:text="قم بالإجابة عن الأسئلة التالية لتساعدنا على تحديد الخدمة الأنسب لك."
@@ -109,20 +110,18 @@
             app:layout_constraintBottom_toTopOf="@+id/title5"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.495"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_logo_" />
 
         <ImageView
             android:id="@+id/img_logo_"
             android:layout_width="102dp"
             android:layout_height="152dp"
             android:layout_marginTop="40dp"
-            android:layout_marginBottom="16dp"
-            app:layout_constraintBottom_toTopOf="@+id/desc21"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.472"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0"
             app:srcCompat="@drawable/head" />
 
         <RadioGroup
@@ -131,10 +130,11 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="138dp"
             android:layout_marginEnd="137dp"
+            android:layout_marginBottom="180dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView36"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.506"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="397dp">
+            app:layout_constraintStart_toStartOf="parent">
 
                 <RadioButton
                     android:id="@+id/radioButton4"

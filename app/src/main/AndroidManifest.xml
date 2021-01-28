@@ -19,22 +19,46 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity_register_7"></activity>
+        <activity android:name=".appointment_booking_2"></activity>
+        <activity android:name=".appointment_booking_1" />
+        <activity android:name=".appointment_booking" ><intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
+        <activity android:name=".activity_session_pro2" />
+        <activity android:name=".activity_session_pro1" />
+        <activity android:name=".program_session">
+
+        </activity>
+        <activity android:name=".home_new_part1" />
+        <activity android:name=".home_new_part2" />
+        <activity android:name=".Home_new" />
+        <activity android:name=".item_thirpst" />
+        <activity android:name=".appointment_time_date2" />
+        <activity android:name=".appointment_time_date" />
+        <activity android:name=".chat" />
+        <activity android:name=".talk_to_the_therapist" />
+        <activity android:name=".talk_to_the_therapist2" />
+        <activity android:name=".talk_to_the_therapist_part2" />
+        <activity android:name=".talk_to_the_therapist_part1" />
+        <activity android:name=".customize_the_service" />
+        <activity android:name=".activity_register_7" />
         <activity android:name=".activity_register_6" />
         <activity android:name=".activity_register_5" />
         <activity android:name=".activity_register_4" />
         <activity android:name=".activity_register_3" />
         <activity android:name=".RegisterContinueActivity_2" />
         <activity android:name=".LogInActivity" />
-        <activity android:name=".RegisterActivity" ></activity>
-        <activity android:name=".RegisterContinueActivity">
-
-        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".RegisterContinueActivity" />
         <activity android:name=".SlideActivity" />
         <activity android:name=".SplachActivity" />
         <activity android:name=".StartNowActivity" />
         <activity android:name=".PaymentActivity" />
         <activity android:name=".MainActivity" />
+        <activity android:name=".list_item_reci" />
+        <activity android:name=".list_item_send" />
     </application>
 
 </manifest>

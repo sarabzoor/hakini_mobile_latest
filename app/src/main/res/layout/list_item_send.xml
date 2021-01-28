@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_chat">
+
+    <ImageView
+        android:id="@+id/send_img"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:background="@drawable/obc"
+        android:paddingLeft="14dp"
+        android:paddingTop="14dp"
+        android:paddingRight="14dp"
+        android:paddingBottom="14dp"
+        android:src="@drawable/user"
+        app:srcCompat="@drawable/user" />
+
+    <com.github.library.bubbleview.BubbleTextView
+        android:id="@+id/text_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_toEndOf="@+id/send_img"
+        android:layout_toRightOf="@id/send_img"
+        android:padding="10dp"
+        android:textColor="#FFF"
+        app:angle="8dp"
+        app:arrowCenter="true"
+        app:arrowHeight="14dp"
+        app:arrowLocation="left"
+        app:arrowPosition="14dp"
+        app:arrowWidth="8dp"
+        app:bubbleColor="#FFFFFF" />
+
+</RelativeLayout>

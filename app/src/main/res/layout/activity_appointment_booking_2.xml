@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".appointment_booking_1">
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="327dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/maskkkk" />
+
+    <TextView
+        android:id="@+id/textView195"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="4dp"
+        android:lineHeight="24dp"
+        android:text="راسل المعالج"
+        android:textColor="@color/blue_black"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView56"
+        app:layout_constraintTop_toTopOf="@+id/imageView64" />
+
+    <TextView
+        android:id="@+id/textView194"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="4dp"
+        android:lineHeight="24dp"
+        android:text="إعادة جدولة"
+        android:textColor="@color/blue_black"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView55"
+        app:layout_constraintTop_toTopOf="@+id/imageView64" />
+
+    <ImageView
+        android:id="@+id/imageView56"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="13dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView64"
+        app:layout_constraintTop_toTopOf="@+id/imageView64"
+        app:srcCompat="@drawable/messege" />
+
+    <TextView
+        android:id="@+id/textView191"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:lineHeight="24dp"
+        android:text="18/10/2020"
+        android:textColor="@color/blue_black"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView189"
+        app:layout_constraintTop_toBottomOf="@+id/textView190" />
+
+    <TextView
+        android:id="@+id/textView192"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:lineHeight="24dp"
+        android:text="5-4 مساءً"
+        android:textColor="@color/blue_black"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView54"
+        app:layout_constraintStart_toStartOf="@+id/imageView51"
+        app:layout_constraintTop_toBottomOf="@+id/textView190" />
+
+    <ImageView
+        android:id="@+id/imageView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView191"
+        app:layout_constraintTop_toBottomOf="@+id/textView190"
+        app:srcCompat="@drawable/circle_time_and_day_bg" />
+
+    <TextView
+        android:id="@+id/textView190"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="right"
+        android:letterSpacing="-0.13"
+        android:text="الأحد"
+        android:textColor="#143041  "
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView189"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView51"
+        app:layout_constraintTop_toBottomOf="@+id/imageView52" />
+
+    <TextView
+        android:id="@+id/textView188"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:letterSpacing="-0.08"
+        android:text="نابلس - فلسطين"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView52"
+        app:layout_constraintTop_toBottomOf="@+id/textView184" />
+
+    <TextView
+        android:id="@+id/textView186"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        android:gravity="right"
+        android:letterSpacing="-0.13"
+        android:text="د. محمد النابلسي"
+        android:textColor="#143041  "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView52"
+        app:layout_constraintTop_toTopOf="@+id/imageView51" />
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView51"
+        app:layout_constraintTop_toTopOf="@+id/imageView51"
+        app:srcCompat="@drawable/therapst3" />
+
+    <TextView
+        android:id="@+id/textView184"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="12dp"
+        android:letterSpacing="-0.08"
+        android:text="المحاضر في جامعة النجاح الوطنية"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView52"
+        app:layout_constraintTop_toBottomOf="@+id/textView186" />
+
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView51"
+        app:layout_constraintTop_toBottomOf="@+id/imageView52"
+        app:srcCompat="@drawable/audio" />
+
+    <TextView
+        android:id="@+id/textView189"
+        android:layout_width="3dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="21dp"
+        android:background="#fec116"
+        app:layout_constraintEnd_toStartOf="@+id/imageView53"
+        app:layout_constraintTop_toBottomOf="@+id/imageView52" />
+
+    <TextView
+        android:id="@+id/textView193"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="في غضون 4 أيام"
+        android:textColor="#22788E"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView64"
+        app:layout_constraintEnd_toStartOf="@+id/textView189"
+        app:layout_constraintStart_toStartOf="@+id/imageView51"
+        app:layout_constraintTop_toBottomOf="@+id/textView191" />
+
+    <ImageView
+        android:id="@+id/imageView55"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="33dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView62"
+        app:layout_constraintTop_toBottomOf="@+id/imageView62"
+        app:srcCompat="@drawable/reschedule" />
+
+    <ImageView
+        android:id="@+id/imageView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="115dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView51"
+        app:layout_constraintEnd_toEndOf="@+id/imageView51"
+        app:layout_constraintStart_toStartOf="@+id/imageView51"
+        app:srcCompat="@drawable/mask22" />
+
+    <ImageView
+        android:id="@+id/imageView64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView51"
+        app:layout_constraintEnd_toEndOf="@+id/imageView62"
+        app:layout_constraintStart_toStartOf="@+id/imageView62"
+        app:layout_constraintTop_toBottomOf="@+id/imageView62"
+        app:srcCompat="@drawable/mask3" />
+
+    <ImageView
+        android:id="@+id/imageView65"
+        android:layout_width="319dp"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView51"
+        app:layout_constraintEnd_toEndOf="@+id/imageView62"
+        app:layout_constraintStart_toStartOf="@+id/imageView62"
+        app:layout_constraintTop_toBottomOf="@+id/imageView64"
+        app:srcCompat="@drawable/mask5" />
+
+    <TextView
+        android:id="@+id/textView206"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="14dp"
+        android:text="صوت وفيديو"
+        android:textColor="#35405e"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView51"
+        app:layout_constraintEnd_toEndOf="@+id/imageView65"
+        app:layout_constraintTop_toBottomOf="@+id/imageView64" />
+
+    <TextView
+        android:id="@+id/textView207"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="إنضمام"
+        android:textColor="#6635405E"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView51"
+        app:layout_constraintStart_toEndOf="@+id/imageView75"
+        app:layout_constraintTop_toBottomOf="@+id/imageView64" />
+
+    <ImageView
+        android:id="@+id/imageView75"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView51"
+        app:layout_constraintStart_toStartOf="@+id/imageView65"
+        app:layout_constraintTop_toTopOf="@+id/imageView65"
+        app:srcCompat="@drawable/chevronright2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

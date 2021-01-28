@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home_new_part2">
+
+    <TextView
+        android:id="@+id/textView147"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="24dp"
+        android:letterSpacing="-0.08"
+        android:text="هل كانت تجربتك مع أخصائيي العلاج مفيدة؟ قم بإعادة التجربة مع أخصائيين أنت أحببتهم!"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView143" />
+
+    <TextView
+        android:id="@+id/textView143"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:gravity="right"
+        android:letterSpacing="-0.13"
+        android:text="أعد التجربة من جديد"
+        android:textColor="#143041  "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView148"
+        android:layout_width="0dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/start_now_btn_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView147" />
+
+    <TextView
+        android:id="@+id/textView157"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:letterSpacing="-0.08"
+        android:text="عمان - الأردن"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView26"
+        app:layout_constraintStart_toStartOf="@+id/textView148"
+        app:layout_constraintTop_toBottomOf="@+id/textView156" />
+
+    <TextView
+        android:id="@+id/textView156"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="12dp"
+        android:letterSpacing="-0.08"
+        android:text="زميل الكلية البريطانية للأطباء النفسيين"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView26"
+        app:layout_constraintStart_toStartOf="@+id/textView148"
+        app:layout_constraintTop_toBottomOf="@+id/textView155" />
+
+    <TextView
+        android:id="@+id/textView155"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="12dp"
+        android:gravity="right"
+        android:letterSpacing="-0.13"
+        android:text="د. بشار النوري"
+        android:textColor="#143041  "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView26"
+        app:layout_constraintStart_toStartOf="@+id/textView148"
+        app:layout_constraintTop_toTopOf="@+id/textView148" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView148"
+        app:layout_constraintEnd_toEndOf="@+id/textView148"
+        app:layout_constraintTop_toTopOf="@+id/textView148"
+        app:srcCompat="@drawable/bashar" />
+
+    <TextView
+        android:id="@+id/textView158"
+        android:layout_width="0dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView148" />
+
+    <TextView
+        android:id="@+id/textView162"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="23dp"
+        android:gravity="center"
+        android:text="البرامج"
+        android:textColor="#7c8da9"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView160"
+        app:layout_constraintTop_toBottomOf="@+id/imageView32" />
+
+    <TextView
+        android:id="@+id/textView163"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="31dp"
+        android:gravity="center"
+        android:text="حاكيني"
+        android:textColor="#7c8da9"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView162"
+        app:layout_constraintTop_toBottomOf="@+id/imageView39" />
+
+    <TextView
+        android:id="@+id/textView164"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:gravity="center"
+        android:text="الحجوزات"
+        android:textColor="#7c8da9"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView163"
+        app:layout_constraintTop_toBottomOf="@+id/imageView34" />
+
+    <TextView
+        android:id="@+id/textView161"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:gravity="center"
+        android:text="ملفي"
+        android:textColor="#7c8da9"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView164"
+        app:layout_constraintStart_toStartOf="@+id/textView158"
+        app:layout_constraintTop_toBottomOf="@+id/imageView40" />
+
+    <View
+        android:id="@+id/view19"
+        android:layout_width="0dp"
+        android:layout_height="5dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/textView158"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="48dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="31dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView32"
+        app:layout_constraintTop_toTopOf="@+id/textView158"
+        app:srcCompat="@drawable/tabchatbot" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="48dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView34"
+        app:layout_constraintStart_toStartOf="@+id/textView158"
+        app:layout_constraintTop_toTopOf="@+id/textView158"
+        app:srcCompat="@drawable/profile" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="48dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="23dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView29"
+        app:layout_constraintTop_toTopOf="@+id/textView158"
+        app:srcCompat="@drawable/sessions" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="48dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView39"
+        app:layout_constraintTop_toTopOf="@+id/textView158"
+        app:srcCompat="@drawable/bookings" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="48dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView158"
+        app:layout_constraintTop_toTopOf="@+id/textView158"
+        app:srcCompat="@drawable/home" />
+
+    <TextView
+        android:id="@+id/textView160"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:gravity="center"
+        android:text="الرئيسية"
+        android:textColor="#278E9A"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView158"
+        app:layout_constraintTop_toBottomOf="@+id/imageView29" />
+</androidx.constraintlayout.widget.ConstraintLayout>

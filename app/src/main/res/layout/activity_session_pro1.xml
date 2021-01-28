@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_session_pro1">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="411dp"
+        android:layout_height="846dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".activity_register_4">
+
+            <TextView
+                android:id="@+id/textView179"
+                android:layout_width="98dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="12dp"
+                android:gravity="center"
+                android:letterSpacing="-0.08"
+                android:text="د. لبنى الحايك"
+                android:textColor="#3C4764"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView47" />
+
+            <TextView
+                android:id="@+id/textView180"
+                android:layout_width="98dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="30dp"
+                android:gravity="center"
+                android:letterSpacing="-0.08"
+                android:text="د. لبنى الحايك"
+                android:textColor="#3C4764"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/textView178"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView48" />
+
+            <TextView
+                android:id="@+id/textView178"
+                android:layout_width="98dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="37dp"
+                android:gravity="center"
+                android:letterSpacing="-0.08"
+                android:text="د. لبنى الحايك"
+                android:textColor="#3C4764"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/textView179"
+                app:layout_constraintTop_toBottomOf="@+id/imageView49" />
+
+            <ImageView
+                android:id="@+id/imageView49"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="37dp"
+                app:layout_constraintEnd_toStartOf="@+id/imageView47"
+                app:layout_constraintTop_toBottomOf="@+id/textView177"
+                app:srcCompat="@drawable/therapst3" />
+
+            <ImageView
+                android:id="@+id/imageView48"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="37dp"
+                app:layout_constraintEnd_toStartOf="@+id/imageView49"
+                app:layout_constraintTop_toBottomOf="@+id/textView177"
+                app:srcCompat="@drawable/bashar" />
+
+            <TextView
+                android:id="@+id/textView177"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="25dp"
+                android:gravity="right"
+                android:text="البرامج حسب  الاستشاري "
+                android:textColor="#143041  "
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView173" />
+
+            <TextView
+                android:id="@+id/textView173"
+                android:layout_width="98dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="34dp"
+                android:background="@drawable/btnprogseesink"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView169" />
+
+            <TextView
+                android:id="@+id/textView176"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="12dp"
+                android:gravity="center"
+                android:text="الإدمان"
+                android:textColor="#143041  "
+                android:textSize="15sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="@+id/textView173"
+                app:layout_constraintEnd_toEndOf="@+id/textView173"
+                app:layout_constraintStart_toStartOf="@+id/textView173"
+                app:layout_constraintTop_toBottomOf="@+id/imageView45" />
+
+            <ImageView
+                android:id="@+id/imageView45"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="37dp"
+                app:layout_constraintEnd_toEndOf="@+id/textView173"
+                app:layout_constraintTop_toTopOf="@+id/textView173"
+                app:srcCompat="@drawable/addiction" />
+
+            <TextView
+                android:id="@+id/textView174"
+                android:layout_width="98dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="25dp"
+                android:background="@drawable/btnprogseesink"
+                app:layout_constraintEnd_toStartOf="@+id/textView165"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView169" />
+
+            <ImageView
+                android:id="@+id/imageView46"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="37dp"
+                app:layout_constraintEnd_toEndOf="@+id/textView174"
+                app:layout_constraintTop_toTopOf="@+id/textView174"
+                app:srcCompat="@drawable/depression" />
+
+            <TextView
+                android:id="@+id/textView169"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="right"
+                android:text="البرامج حسب  الفئة"
+                android:textColor="#143041  "
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView167" />
+
+            <TextView
+                android:id="@+id/textView166"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="25dp"
+                android:gravity="right"
+                android:text="اليأس"
+                android:textColor="#143041  "
+                android:textSize="17sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView42" />
+
+            <TextView
+                android:id="@+id/textView167"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="25dp"
+                android:letterSpacing="-0.08"
+                android:text="د. لبنى الحايك"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView168" />
+
+            <TextView
+                android:id="@+id/textView168"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="25dp"
+                android:letterSpacing="-0.08"
+                android:text="مجموعة كبيرة من برامج الدعم لتساعدك على النهوض من جديد"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView166" />
+
+            <TextView
+                android:id="@+id/textView154"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="160dp"
+                android:gravity="right"
+                android:text="البرامج"
+                android:textColor="#143041  "
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="58dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/profile_pic" />
+
+            <ImageView
+                android:id="@+id/imageView42"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView154"
+                app:srcCompat="@drawable/featured2" />
+
+            <TextView
+                android:id="@+id/textView165"
+                android:layout_width="98dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="25dp"
+                android:background="@drawable/btnprogseesink"
+                app:layout_constraintEnd_toStartOf="@+id/textView173"
+                app:layout_constraintTop_toBottomOf="@+id/textView169" />
+
+            <TextView
+                android:id="@+id/textView175"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="12dp"
+                android:gravity="center"
+                android:text="القلق"
+                android:textColor="#143041  "
+                android:textSize="15sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="@+id/textView165"
+                app:layout_constraintEnd_toEndOf="@+id/textView165"
+                app:layout_constraintStart_toStartOf="@+id/textView165"
+                app:layout_constraintTop_toBottomOf="@+id/imageView43" />
+
+            <TextView
+                android:id="@+id/textView170"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="12dp"
+                android:gravity="center"
+                android:text="الإكتئاب"
+                android:textColor="#143041  "
+                android:textSize="15sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="@+id/textView174"
+                app:layout_constraintEnd_toEndOf="@+id/textView174"
+                app:layout_constraintStart_toStartOf="@+id/textView174"
+                app:layout_constraintTop_toBottomOf="@+id/imageView46" />
+
+            <ImageView
+                android:id="@+id/imageView43"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="37dp"
+                app:layout_constraintEnd_toEndOf="@+id/textView165"
+                app:layout_constraintTop_toTopOf="@+id/textView165"
+                app:srcCompat="@drawable/anxiety" />
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="25dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView177"
+                app:srcCompat="@drawable/therapst2" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

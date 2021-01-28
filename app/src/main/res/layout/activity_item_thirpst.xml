@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/item_layout2"
+        android:layout_width="0dp"
+        android:layout_height="142dp"
+        android:layout_gravity="right"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/imageView21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textt2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="12dp"
+            android:gravity="right"
+            android:text="Main title"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textt1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textt2"
+            android:layout_alignStart="@+id/textt2"
+            android:layout_alignLeft="@+id/textt2"
+            android:layout_alignEnd="@+id/textt2"
+            android:layout_alignRight="@+id/textt2"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="right"
+            android:letterSpacing="-0.08"
+            android:padding="2dp"
+            android:text="sub title 1"
+            android:textColor="#8F35405E"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textt2" />
+
+        <TextView
+            android:id="@+id/textt"
+            android:layout_width="0dp"
+            android:layout_height="27dp"
+            android:layout_below="@+id/textt2"
+            android:layout_alignStart="@+id/textt2"
+            android:layout_alignLeft="@+id/textt2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="right"
+            android:letterSpacing="-0.08"
+            android:padding="2dp"
+            android:text="sub title 2"
+            android:textColor="#8F35405E"
+            android:textSize="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textt1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_weight="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/item_layout2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bashar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

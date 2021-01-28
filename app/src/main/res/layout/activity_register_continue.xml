@@ -131,18 +131,13 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textInputLayout2">
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/CountryEditText"
+                <com.jaredrummler.materialspinner.MaterialSpinner
+                    android:id="@+id/spinner2"
+                    app:ms_background_color="#00FFFFFF"
+                    app:ms_dropdown_max_height="350dp"
+                    app:ms_dropdown_height="wrap_content"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@android:color/transparent"
-                    android:inputType="textPassword"
-                    android:letterSpacing="0.5"
-                    android:lineHeight="24dp"
-                    android:textAlignment="textEnd"
-                    android:textColor="@color/white"
-                    android:textSize="15sp"
-                    app:hintTextColor="#A3FFFFFF" />
+                    android:layout_height="wrap_content"/>
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -175,7 +170,7 @@
                     android:textAlignment="textEnd"
                     android:textColor="@color/white"
                     android:textSize="15sp"
-                    app:hintTextColor="#A3FFFFFF" />
+                    app:hintTextColor="#33FFFFFF" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -198,17 +193,13 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView34">
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/GenderEditText"
+                <com.jaredrummler.materialspinner.MaterialSpinner
+                    android:id="@+id/spinner"
+                    app:ms_dropdown_max_height="350dp"
+                    app:ms_dropdown_height="wrap_content"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@android:color/transparent"
-                    android:inputType="textEmailAddress"
-                    android:lineHeight="24dp"
-                    android:textAlignment="textEnd"
-                    android:textColor="@color/white"
-                    android:textSize="15sp"
-                    app:hintTextColor="#A3FFFFFF" />
+                    app:ms_background_color="#00FFFFFF"
+                    android:layout_height="wrap_content"/>
             </com.google.android.material.textfield.TextInputLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -69,7 +69,7 @@
 
     <TextView
         android:id="@+id/title5"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:gravity="center|center_horizontal"
@@ -83,7 +83,7 @@
 
     <TextView
         android:id="@+id/desc6"
-        android:layout_width="188dp"
+        android:layout_width="0dp"
         android:layout_height="24dp"
         android:layout_marginBottom="24dp"
         android:gravity="center|center_horizontal"
